@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<!--
+Name: Nathalie Surman
+Date Created: 21/04/2023
+Most recent revision:
+-->
 <html lang="en">
    <head>
       <title>HTML Practice</title>
@@ -12,8 +17,9 @@
 
       <h1>2.</h1>
       <!-- Your solution to #2 here -->
-      <p>&lt;img src="test.png"&gt</p>
-      <!-- & -->
+      <p>
+         &lt;!-- &amp; --&gt;
+      </p>
       <hr>
 
       <h1>3.</h1>
@@ -23,57 +29,52 @@
 
       <h1>4.</h1>
       <!-- Your solution to #4 here -->
-      <a href="/stuff.html">Got to my stuff</a>
+      <a href="/stuff.html">Go to my stuff</a>
       <hr>
 
       <h1>5.</h1>
       <!-- Your solution to #5 here -->
-      <img src="./zyBooks_logo.png" alt="zyBooks_logo">
+      <a href="https://www.zybooks.com/" target="_blank"><img src="./zyBooks_logo.png" alt="zyBooks_logo"></a>
       <hr>
 
       <h1>6.</h1>
       <!-- Your solution to #6 here -->
       <ol type="1">
-         <li>Desktop</li>
-         <ul>  
-            <li style="list-style-type: circle;">Linux</li>
-            <li style="list-style-type: circle;">Mac OS</li>
-            <li style="list-style-type: circle;">Windows</li>
-         </ul>
-         <li>Mobile</li>
-         <ul>  
-            <li style="list-style-type: circle;">Android</li>
-            <li style="list-style-type: circle;">iOS</li>
-         </ul>
+         <li>Desktop
+            <ul>
+               <li style="list-style-type: circle;">Linux</li>
+               <li style="list-style-type: circle;">Mac OS</li>
+               <li style="list-style-type: circle;">Windows</li>
+            </ul>
+         </li>
+            
+         <li>Mobile
+            <ul>
+               <li style="list-style-type: circle;">Android</li>
+               <li style="list-style-type: circle;">iOS</li>
+            </ul>
+         </li>  
       </ol>
       <hr>
 
       <h1>7.</h1>
       <!-- Your solution to #7 here -->
+      <!-- a table with 3 rows and 3 columns. -->
       <table>
          <tr>
-            <th>1</th>
+            <td colspan="3"><h1>1</h1></td>
          </tr>
-         
          <tr>
-            <td>2</td>
+            <td rowspan="2"><h1>2</h1></td>
+            <td><h1>3</h1></td>
+            <td><h1>4</h1></td>
+         </tr>
+         <tr>
+            <td><h1>5</h1></td>
+            <td><h1>6</h1></td>
+         </tr>
       
-
-         <td style="align-items: center;">
-         <table>
-            <tr>
-            <td>3</td>
-            <td>4</td>
-         </tr>
-         <tr>
-            <td>5</td>
-            <td>6</td>
-         </tr>
-         </table>
-         </td>
-            </tr>
       </table>
-      
       <hr>
    </body>
 
