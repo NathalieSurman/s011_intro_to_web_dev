@@ -1,0 +1,77 @@
+/* Your code goes here */
+
+/*
+Creator: Nathalie
+Date created: 22-04-2023
+last modified: 
+*/
+body{
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 16px;
+    color: #444444;
+    text-align: center;
+}
+
+.container{
+    margin: 5px;
+    font-size: 13px;
+}
+
+.offer{
+    display: inline-block;
+    width: 400px;
+    margin: 4px;
+    text-align: center;
+    border: 1px solid #cccccc;
+}
+
+.offerTitle{
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color:#00b3b3;
+    margin: 0;
+    padding: 15px;
+}
+
+.offerContents{
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+table{
+    width: 100%;
+    background-color: #ffffff;
+    border: none;
+}
+
+th{
+    font-weight: bold;
+    font-size: 12px;
+    color: #777777;
+    padding: 10px;
+    margin: 0;
+}
+
+td{
+    color: #444444;
+    font-weight: lighter;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+th, td{
+    text-align: left;
+    border-bottom: 1px solid  #f1f1f1;
+}
+
+.finalValue{
+    color: #2222ff;
+    font-weight: bold;
+}
