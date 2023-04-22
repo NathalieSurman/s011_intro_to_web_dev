@@ -10,6 +10,42 @@ Most recent revision:
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nathalie's Portfolio</title>
+    <link rel="stylesheet" href="./index.css" type="text/css">
+    <style> 
+    caption{
+        font-weight: bold;
+        font-size: 1.2em;
+        margin-bottom: 8px;
+    }
+    table, th, td {
+        border: 1px solid #0d1f2d;
+        /* This makes them single borders */
+        border-collapse: collapse; 
+        padding: 5px 10px;
+    }
+
+    table {
+    width: 90%;
+    /* When we add the margin: auto it makes it center */
+    /* The auto option tells the browser to use the default margins on the top and bottom. */
+    margin: auto;
+    }
+    tr {
+    height: 30px;
+
+}
+th {
+    background-color: #546a7b;
+    color: #f2eded;
+}
+
+/* color to one set of our rows (odd or even) */
+/* we don't want to mess up the color for our headers, this will be in a new CSS rule for tr and we'll put it under our th rule: */
+tbody tr:nth-child(odd) {
+            background-color: #e4c3ad; 
+        }   
+
+    </style> 
 </head>
 <body>
     <header>
@@ -17,13 +53,13 @@ Most recent revision:
     </header>
 
 <nav>
-    <hr>
+
     <!-- We need to add links to projects.html, contact.html, and testimonials.html HERE-->
     <p><a href="">Home</a></p>
     <p><a href="./projects.html">Projects</a></p>
     <p><a href="./contact.html">Contact</a></p>
     <p><a href="./testimonials.html">Testimonials</a></p>
-    <hr>
+
 </nav>
 
 <section>
@@ -40,12 +76,15 @@ Most recent revision:
     <img src="/html/code-alongs/tables/images/experiment-217201_640.jpg" alt="person in a lab" width="250">
     <table>
         <caption>Employment History</caption>
+        <thead>
         <tr>
             <!-- This is the  column headings (the th elements in the first row)  -->
             <th>Years of Employment</th>
             <th>Title</th>
             <th>Company</th>
         </tr>
+    </thead>
+    <tbody>
         <tr>
             <!-- all other cells (in td elements) in the table should be plain and left-aligned within the cells. -->
             <td>2005-2008</td>
@@ -64,6 +103,7 @@ Most recent revision:
             <td>student</td>
             <td>University</td>
         </tr>
+    </tbody>
     </table>
 
 </article>
@@ -106,7 +146,7 @@ Most recent revision:
 
 </section>
 <footer>
-    <hr>
+  
     <p>&copy; 2023 Nathalie Surman. All rights reserved.</p>
 </footer>
 
