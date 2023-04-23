@@ -59,21 +59,30 @@ tbody tr:nth-child(odd) {
     <p><a href="./projects.html">Projects</a></p>
     <p><a href="./contact.html">Contact</a></p>
     <p><a href="./testimonials.html">Testimonials</a></p>
+    <div class="clear-float"></div>
 
 </nav>
 
 <section>
     <article id="about-me">
         <h2><em>About Me</em></h2>
+        <img src="/html/code-alongs/tables/images/marci-kitzmiller-350px.jpg" alt="Portrait of Marci Kitzmiller" width="250" style="float:left;">
         <p><strong> ipsum dolor sit amet </strong>consectetur adipisicing elit. Quas numquam, voluptate aspernatur cum accusamus repellat quam, 
             fuga harum recusandae qui, ullam nostrum voluptas vero asperiores molestias omnis illum commodi quibusdam.</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore earum dolorum accusantium nesciunt in. In, inventore? Iusto illum temporibus expedita, labore, 
             quae quas voluptatibus <strong> iste ab quo provident amet!</strong></p>
+
+            <!-- We can turn off the float setting using the declaration clear:both, 
+            which tells the browser to turn off any floats (left or right) that are currently in effect.  -->
+            <div class="clear-float"></div>
+            <!-- This div is completely empty. Using an empty div block is a common trick for 
+            applying a style to a specific point in a page without associating that style with any content. -->
     </article>
 
 <article id="past-experiences">
     <h2><em>Past Experiences</em></h2>
     <img src="/html/code-alongs/tables/images/experiment-217201_640.jpg" alt="person in a lab" width="250">
+    <div class="right-content">
     <table>
         <caption>Employment History</caption>
         <thead>
@@ -105,12 +114,15 @@ tbody tr:nth-child(odd) {
         </tr>
     </tbody>
     </table>
+</div>
+    <div class="clear-float"></div>
 
 </article>
 
 <article id="hobbies">
     <h2><em>Hobbies</em></h2>
     <img src="/html/code-alongs/tables/images/sandcastle-766949_640.jpg" alt="">
+    <div class="right-content">
     <ul>
         <li>Authors</li>
         <ol>
@@ -141,7 +153,8 @@ tbody tr:nth-child(odd) {
         </ul>
     </ul>
 
-    
+</div>
+<div class="clear-float"></div>
 </article>
 
 </section>
